@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lexend Deca;
+}
+
+.nav_container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.logo {
+    width: 100px;
+    vertical-align: middle;
+    margin-right: 45px;
+}
+
+.logo_text {
+    vertical-align: middle;
+}
+
+ul {
+    display: inline-block;
+    font-size: 20px;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+.nav_section {
+    display: inline-block;
+}
+
+.section_right {
+    width: 50%;
+    text-align: right;
+}
+
+.button_style {
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+.btn_left {
+    background-color: #ff5c35;
+    color: #fff;
+    border: #ff5c35 solid 2px;
+}
+
+.btn_right {
+    background-color: #fff;
+    color: #ff5c35;
+    border: #ff5c35 solid 2px;
+}
